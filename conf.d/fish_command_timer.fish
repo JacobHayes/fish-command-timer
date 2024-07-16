@@ -100,7 +100,7 @@ end
 # When set to a non-zero value, commands that finished within the specified
 # number of milliseconds will not trigger printing of command timings.
 if not set -q fish_command_timer_min_cmd_duration
-  set fish_command_timer_min_cmd_duration 0
+  set fish_command_timer_min_cmd_duration 50
 end
 
 
